@@ -1,0 +1,21 @@
+extends _layout.pug
+block locals
+  - var title = 'RedStore | Eコマース Website Design';
+block content
+  header.header
+    .container
+      .navbar
+        .logo
+          img(src="../images/logo.png")
+        include _menu.pug
+      .row
+        .col-2
+          h1 Give Your Workout
+            br
+            | A New Style!
+          p 成功は常に偉大なものではありません。一貫性が重要なのです。
+            br
+            | 一貫した努力が成功を得る。偉業は必ずやってくる。
+          a.btn(href="") Explore Nom &#10095;
+        .col-2
+          img(src="../images/image1.png")
