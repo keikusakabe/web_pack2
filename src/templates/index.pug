@@ -7,15 +7,234 @@ block content
       .navbar
         .logo
           img(src="../images/logo.png")
-        include _menu.pug
+        nav
+          ul
+            li
+              a(href="") Home
+            li
+              a(href="") Products
+            li
+              a(href="") About
+            li
+              a(href="") Contact
+            li
+              a(href="") Access
+        img.cart(src="../images/cart.png")
       .row
         .col-2
           h1 Give Your Workout
             br
             | A New Style!
-          p 成功は常に偉大なものではありません。一貫性が重要なのです。
+          p 成功は常に偉大なものではありません。一貫性が重要です。
             br
             | 一貫した努力が成功を得る。偉業は必ずやってくる。
           a.btn(href="") Explore Nom &#10095;
         .col-2
           img(src="../images/image1.png")
+
+  //- feature categories
+  .categories
+    .small-container
+      .row
+        .col-3
+          img(src="../images/category-1.jpg")
+        .col-3
+          img(src="../images/category-2.jpg")
+        .col-3
+          img(src="../images/category-3.jpg")
+
+  //- feature products
+  .small-container
+    h2.title Featured Products
+    .row
+      .col-4
+        img(src="../images/product-1.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-2.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-3.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+        p $50.00
+      .col-4
+        img(src="../images/product-4.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+
+    h2.title Latest Products
+    .row
+      .col-4
+        img(src="../images/product-5.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-6.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-7.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+        p $50.00
+      .col-4
+        img(src="../images/product-8.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+    .row
+      .col-4
+        img(src="../images/product-9.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-10.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-11.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+        p $50.00
+      .col-4
+        img(src="../images/product-12.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+
+  //- offer
+  .offer
+    .small-container
+      .row
+        .col-2
+          img.offer-img(src="../images/exclusive.png")
+        .col-2
+          p RedStoreで独占販売中
+          h1 Smart Band 4
+          small Smart Band 4は、Smart Band3よりも39.9％大きい、調整可能な明るさのAMOLEDカラーフルタッチディスプレイを備えているので、すべてがクリアです。
+          a.btn(href="") But Now &#8594;
+
+  //- testimonial
+  .testimonial
+    .small-container
+      .row
+        .col-3
+          i.fa.fa-quote-left
+          p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+          .rating
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star-o
+          img(src="../images/user-1.png")
+          h3 Sean Parker
+
+        .col-3
+          i.fa.fa-quote-left
+          p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+          .rating
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star-o
+          img(src="../images/user-2.png")
+          h3 Sean Parker
+
+        .col-3
+          i.fa.fa-quote-left
+          p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+          .rating
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star
+            i.fa.fa-star-o
+          img(src="../images/user-3.png")
+          h3 Sean Parker
+
+  //- brands
+  .brands
+    .small-container
+      .row
+        .col-5
+          img(src="../images/logo-godrej.png")
+        .col-5
+          img(src="../images/logo-oppo.png")
+        .col-5
+          img(src="../images/logo-coca-cola.png")
+        .col-5
+          img(src="../images/logo-paypal.png")
+        .col-5
+          img(src="../images/logo-philips.png")
