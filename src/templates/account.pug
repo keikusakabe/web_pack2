@@ -1,0 +1,35 @@
+extends _layout.pug
+block locals
+  - var title = 'All products RedStore';
+block content
+  header
+    include _menu.pug
+
+  //- account page
+  .account-page
+    .container
+      .row
+        .col-2
+          img(src="../images/image1.png")
+        .col-2
+          .form-container
+            .form-btn
+              span(onclick="login()") ログイン
+              span(onclick="register()") 会員登録
+              hr#Indicator
+
+            form#LoginForm
+              input(type="text" placeholder="Username")
+              input(type="password" placeholder="Password")
+              button.btn(type="submit") ログイン
+              a(href="") パスワードを忘れた方
+            form#RegForm
+              input(type="text" placeholder="Username")
+              input(type="email" placeholder="Email")
+              input(type="password" placeholder="Password")
+              button.btn(type="submit") 会員登録
+
+
+
+
+  include _footer.pug

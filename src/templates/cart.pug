@@ -1,0 +1,65 @@
+extends _layout.pug
+block locals
+  - var title = 'All products RedStore';
+block content
+  header
+    include _menu.pug
+
+  //- cart items details
+  .small-container.cart-page
+    table
+      tr
+        th 商品
+        th 数量
+        th 小計
+      tr
+        td
+          .cart-info
+            img.cart-img(src="../images/buy-1.jpg")
+            div
+              p Red Printed Tshirt
+              small Price: $50.00
+              br
+              a(href="") 削除
+        td
+          input(type="number" value="1")
+        td $50.00
+      tr
+        td
+          .cart-info
+            img.cart-img(src="../images/buy-2.jpg")
+            div
+              p Red Printed Tshirt
+              small Price: $75.00
+              br
+              a(href="") 削除
+        td
+          input(type="number" value="1")
+        td $75.00
+      tr
+        td
+          .cart-info
+            img.cart-img(src="../images/buy-3.jpg")
+            div
+              p Red Printed Tshirt
+              small Price: $75.00
+              br
+              a(href="") 削除
+        td
+          input(type="number" value="1")
+        td $75.00
+
+    .total-price
+      table
+        tr
+          td 小計
+          td $200.00
+        tr
+          td 消費税
+          td $35.00
+        tr
+          td 合計
+          td $235.00
+
+
+  include _footer.pug

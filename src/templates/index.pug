@@ -3,23 +3,8 @@ block locals
   - var title = 'RedStore | Eコマース Website Design';
 block content
   header.header
+    include _menu.pug
     .container
-      .navbar
-        .logo
-          img(src="../images/logo.png")
-        nav
-          ul
-            li
-              a(href="") Home
-            li
-              a(href="") Products
-            li
-              a(href="") About
-            li
-              a(href="") Contact
-            li
-              a(href="") Access
-        img.cart(src="../images/cart.png")
       .row
         .col-2
           h1 Give Your Workout
@@ -238,3 +223,6 @@ block content
           img(src="../images/logo-paypal.png")
         .col-5
           img(src="../images/logo-philips.png")
+
+  //- footer
+  include _footer.pug

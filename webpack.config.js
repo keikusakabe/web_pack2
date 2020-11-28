@@ -101,12 +101,24 @@ module.exports = {
       filename: 'index.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/templates/access.pug',
-      filename: 'access.html',
+      template: './src/templates/products.pug',
+      filename: 'products.html',
     }),
     new HtmlWebpackPlugin({
-      template: './src/templates/members/taro.pug',
-      filename: 'members/taro.html',
+      template: './src/templates/products.pug',
+      filename: 'products.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/products-details.pug',
+      filename: 'products-details.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/cart.pug',
+      filename: 'cart.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/templates/account.pug',
+      filename: 'account.html',
     }),
     new CleanWebpackPlugin(),
   ],

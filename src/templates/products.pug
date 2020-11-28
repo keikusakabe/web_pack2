@@ -1,0 +1,152 @@
+extends _layout.pug
+block locals
+  - var title = 'All products RedStore';
+block content
+  include _menu.pug
+
+  //- feature products
+  .small-container
+    .row.row-2
+      h2 All products
+      select
+        option Default Shorting
+        option 価格
+        option 人気
+        option 評価
+        option セール
+
+    .row
+      .col-4
+        a(href="products-details.html")
+          img(src="../images/product-1.jpg")
+        a(href="products-details.html")
+          h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-2.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-3.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+        p $50.00
+      .col-4
+        img(src="../images/product-4.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+    .row
+      .col-4
+        img(src="../images/product-5.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-6.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-7.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+        p $50.00
+      .col-4
+        img(src="../images/product-8.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+    .row
+      .col-4
+        img(src="../images/product-9.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-10.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+          i.fa.fa-star-o
+        p $50.00
+      .col-4
+        img(src="../images/product-11.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-half-o
+        p $50.00
+      .col-4
+        img(src="../images/product-12.jpg")
+        h4 Red Printed T-Shirt
+        .rating
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star
+          i.fa.fa-star-o
+        p $50.00
+
+    .page-btn
+      span 1
+      span 2
+      span 3
+      span 4
+      span &#8594;
+
+
+  include _footer.pug
